@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">mEDU</string>
+    <string name="prompt_email">Enter User Name</string>
+    <string name="prompt_password">Enter User Password</string>
+    <string name="action_sign_in">Sign Up</string>
+    <string name="pleaseselectrole">Please Select Role</string>
+    <string name="username">User Name</string>
+    <string name="userpassword">User Password</string>
+    <string name="footer_text">Manacle Technologies Private Limited</string>
+    <string name="selectrole">Select Role</string>
+    <string name="course">Select Course</string>
+    <string name="semester">Select Semester</string>
+    <string name="section">Select Section</string>
+    <string name="submit">Submit</string>
+    <string name="date">Select Date</string>
+    <string name="papertype">Select Paper Type</string>
+    <string name="subject">Select Subject</string>
+    <string name="classtype">Select Class Type</string>
+    <string name="lecture">No. of Lecture</string>
+    <string name="selectall">Select All</string>
+    <string name="month">Select Month</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="logout">Logout</string>
+    <string name="data_sync">Data Sync</string>
+    <string name="home">Home</string>
+    <string name="select_month">Select Month</string>
+    <string name="alert_dialog_title">Select Month</string>
+    <string name="positive_button_text">Select</string>
+    <string name="negative_button_text">Cancel</string>
+    <string-array name="user_desig">
+        <item>Choose Type</item>
+        <item>Student</item>
+        <item>Teacher</item>
+        <item>Admin</item>
+    </string-array>
+
+</resources>

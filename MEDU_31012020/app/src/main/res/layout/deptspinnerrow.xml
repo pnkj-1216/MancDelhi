@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/margin_16"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtDeptName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/WHITE"
+        android:textSize="14sp"
+        android:visibility="visible" />
+
+
+
+    <View
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/WHITE"
+        android:orientation="horizontal" />
+</androidx.appcompat.widget.LinearLayoutCompat>

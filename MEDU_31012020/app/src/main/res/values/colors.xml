@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0082C3</color>
+    <color name="colorPrimaryDark">#0d71a3</color>
+    <color name="colorAccent">#808080</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="txtcolhint">#FF0000</color>
+    <color name="blue">#0000FF</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <!--  <color name="footcol">#76B735</color> -->
+    <color name="bg_view">#EEEEEE</color>
+    <color name="bg_text_title">#662211</color>
+    <color name="footcol">#76B735</color>
+    <color name="bg_home">#D3D3D3</color>
+    <color name="app_color">#8EAE3C</color>
+    <color name="bg_selector_trans">#00808080</color>
+    <color name="txtcol">#000000</color>
+    <color name="txtcolnew">#FFFFFF</color>
+    <color name="red">#FFFF4444</color>
+    <color name="grey_spinner">#808080</color>
+    <color name="orange">#f5db6103</color>
+    <color name="yellow">#ffc966</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="retailer_item_color">#947E7E</color>
+    <color name="rippelColor">#ef6c00</color>
+    <color name="light_green">#ef6c00</color>
+    <color name="grey">#808080</color>
+    <color name="dim_grey">#b4808080</color>
+    <color name="colorBackground">#e9e9e9</color>
+    <color name="colorNew">#394557</color>
+    <color name="waterblue">#808080</color>
+    <!--<color name="waterblue">#74ccf4</color>-->
+    <color name="darkblue">#000080</color>
+    <color name="image_selector_olor">#33ef6c00</color>
+    <item name="darkgreen" type="color">#FF669900</item>
+
+    <!--Disable color code -->
+    <color name="disable_btn">#f2efef</color>
+    <color name="button_default_color">@color/colorNew</color>
+    <color name="colorNewDark">#262e3b</color>
+    <color name="button_default_shadow_color">@color/colorNewDark</color>
+
+    <color name="level_0">#1abc9c</color>
+    <color name="level_1">#3498db</color>
+    <color name="level_2">#e67e22</color>
+    <color name="level_3">#8e44ad</color>
+    <color name="level_4">#f1c40f</color>
+    <color name="level_5">#2ecc71</color>
+    <color name="level_default">#000000</color>
+    <color name="light_grey">#696969</color>
+    <color name="colorTransWhite">#50ffffff</color>
+    <color name="colorText">#637083</color>
+    <color name="logintxtcol">#ee000000</color>
+    <color name="buttoncolor">#eeff41</color>
+    <color name="colorGreen">#008000</color>
+
+</resources>

@@ -1,0 +1,188 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android = "http://schemas.android.com/apk/res/android"
+     android:layout_width = "match_parent"
+    android:layout_height = "@dimen/nav_header_height"
+    android:background = "@color/colorWhite"
+    android:orientation = "vertical"
+    android:paddingLeft = "@dimen/activity_horizontal_margin"
+    android:paddingTop = "@dimen/activity_vertical_margin"
+    android:paddingRight = "@dimen/activity_horizontal_margin"
+    android:paddingBottom = "@dimen/activity_vertical_margin"
+    android:theme = "@style/ThemeOverlay.AppCompat.Dark">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="@dimen/margin_20"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name:"
+            android:textStyle="bold"
+            android:textSize="@dimen/padding_default"
+            android:textColor="@color/colorBlack"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/username"
+            android:textStyle="bold"
+            android:textSize="@dimen/padding_default"
+            android:textColor="@color/colorBlack"
+
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Designation"
+            android:textStyle="bold"
+
+            android:textSize="@dimen/padding_default"
+            android:textColor="@color/colorBlack"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/userdob"
+            android:textStyle="bold"
+
+            android:textSize="@dimen/padding_default"
+            android:textColor="@color/colorBlack"
+
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Department:"
+            android:textStyle="bold"
+
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/padding_default"
+
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/padding_default"
+            android:textStyle="bold"
+
+            android:id="@+id/userdepartment"
+            android:textColor="@color/colorBlack"
+
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:text="Phone No."
+            android:textSize="@dimen/padding_default"
+            android:textColor="@color/colorBlack"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/padding_default"
+            android:textStyle="bold"
+            android:id="@+id/userphone"
+            android:textColor="@color/colorBlack"
+
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textSize="@dimen/padding_default"
+            android:textColor="@color/colorBlack"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/padding_default"
+            android:id="@+id/useremail"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_10"
+        >
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Last Sync:"
+            android:textStyle="bold"
+            android:textSize="@dimen/padding_default"
+            android:textColor="@color/colorBlack"
+
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/padding_default"
+            android:id="@+id/lastSyncDateTime"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

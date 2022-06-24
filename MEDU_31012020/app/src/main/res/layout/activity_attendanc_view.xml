@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.rcdu.medu.attendancereport.AttendancViewActivity">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_10"
+        >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/date_attendance_btn"
+        android:layout_width="match_parent"
+        style="@style/ButonGradient"
+        android:text="Date Wise"
+        android:layout_marginTop="@dimen/margin_10"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/month_attendance_btn"
+        android:layout_marginTop="@dimen/margin_5"
+        style="@style/ButonGradient"
+        android:layout_width="match_parent"
+        android:text="Month wise"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</LinearLayout>
+</LinearLayout>
